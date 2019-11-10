@@ -10,7 +10,14 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
+
 }
+
+
+.particles-js-canvas-el{
+  position: absolute;
+}
+
 button.dim {
   text-transform: uppercase;
 }
