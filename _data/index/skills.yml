@@ -1,6 +1,33 @@
-# skills section data
+languages:
+  - item: JavaScript (ES6)
+  - item: TypeScript
+  - item: HTML
+  - item: CSS/Sass
+  - item: Python
+  - item: SQL
+  - item: R
 
-label: Ability
-id : cs
-aspects: Quest KACE, Windows Server, Linux/Shell, IBM Notes/Domino, Citrix XenApp, Citrix XenDesktop, Active Directory, WordPress, Git, GitHub, HTML/CSS, Jekyll, ITIL
-percentage: 99, 90, 85, 90, 85, 80, 90, 85, 70, 80, 65, 75, 85
+frameworks:
+  - item: Ember & Glimmer
+  - item: React
+  - item: Jekyll
+  - item: Node
+  - item: D3
+  - item: Wordpress
+  - item: Timber
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Gulp & Grunt
+  - item: Chrome DevTools
+  - item: Postman
+  - item: MongoDB
+
+design:
+  - item: Sketch
+  - item: InDesign
+  - item: InVision
+  - item: Prototyping
+  - item: Wireframing
+  - item: User Testing

@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Cristian Castellari
-description: "Informatico, padre e marito. Nel tempo libero mi dedico alla famiglia, agli amici e ai videogiochi"
-keywords: cristian, castellari, blog, jekyll, gh-pages, kace, github, wordpress
+title: Tu Hanh Nguyen
+description: "Data Scientist | Machine Learning Engineer"
+keywords: Tu, Nguyen, data-science, machine-learning, blog, jekyll, gh-pages, github, python
 baseurl:  '' # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://cristiancastellari.it  # url should be 'http://<github_username>.github.io/homepage' as before
+url: https://tuhanhnguyen.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 #
@@ -15,7 +15,7 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 # Jekyll configuration
 ####################################
 #
-timezone: Europe/Rome
+timezone: Asia/Ho_Chi_Minh
 highlighter: rouge
 markdown: kramdown
 excerpt_separator: <!--more-->
@@ -32,24 +32,23 @@ kramdown:
 # Jekyll-SEO-tag settings
 ####################################
 #
-lang: it_IT
+lang: en_US
 permalink: /blog/:categories/:title/
 
 social:
-  name: Cristian Castellari
+  name: Tu Hanh Nguyen
   links:
-    - https://twitter.com/BloggerStanco
-    - https://www.facebook.com/cristian.castellari
-    - https://www.linkedin.com/in/cristiancastellari/
-    - https://github.com/Skyflash
+    - https://twitter.com/TuHanhNguyen
+    - https://www.linkedin.com/in/TuHanhNguyen
+    - https://github.com/TuHanhNguyen
 
 twitter:
   card: summary
-  username: BloggerStanco
+  username: TuHanhNguyen
 
-webmaster_verifications:
-  google: FByo2xcDR6RaUId2DdQjhAmq9YMjlEhVlL0OgK8KDzU
-  bing: FCA4B700F192727565A2354B488A3DD5
+# webmaster_verifications:
+#   google: 
+#   bing: 
 
 #
 ###################################
@@ -58,30 +57,30 @@ webmaster_verifications:
 ####################################
 #
 author:  # change following line to your infomation.
-  name: Cristian Castellari  # Be used at blog posts' author.
-  first_name: Cristian  # Be used at index page about me section.
-  last_name: Castellari  # Be used at index page about me section.
+  name: Tu Hanh Nguyen  # Be used at blog posts' author.
+  first_name: Tu  # Be used at index page about me section.
+  last_name: Hanh Nguyen  # Be used at index page about me section.
   avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
-  github_username: skyflash  # Leave blank if you don't have now
-  linkedin_id: cristiancastellari # Leave blank if you don't have now
-  facebook_username: cristian.castellari  # Leave blank if you don't have now
-  twitter: BloggerStanco
-  email: c.castellari@gmail.com  # Leave blank if you don't have now
-  cv: https://cristiancastellari.it/static/assets/cv/CV_Cristian_Castellari.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  github_username: tuhanhnguyen  # Leave blank if you don't have now
+  linkedin_id: tuhanhnguyen # Leave blank if you don't have now
+  facebook_username:  # Leave blank if you don't have now
+  twitter: tuhanhnguyen
+  email: tuhanhnguyen777@gmail.com  # Leave blank if you don't have now
+  cv: https://tuhanhnguyen.github.io/CV_Tu_Hanh_Nguyen.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
 
 
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-wordpress
+    - name: icon-python
     - name: fa-linux
   skill_icon2:
-    - name: fa-apple
+    - name:  icon-database-alt2
     - name: fa-chrome
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: Nice to meet you! I'm Tu, a data scienist based in Ho Chi Minh City, Vietnam. Currently, I am working on data science, machine learning and Internet of things (IoT) projects to develope the skills required for long-term postions in the field of AI, E-commerce or Healthcare industry. Here are the list of technoligies I have been working with [Supervized Learning], [Unsupervized Learning], [Google Cloud Plaform], [HTML & CSS], [Ggoogle Data Studio], [Numpy, Pandas and Sklearn]. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: cristiancastellari-it
+  name: tuhanhnguyen
 
 # analytics
 ## google analytics

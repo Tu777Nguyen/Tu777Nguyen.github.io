@@ -7,6 +7,9 @@
 #particles-js {
   height: 100%;
   background-color: #1c1e1e;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,10 +132,10 @@ h3, h4, h5 {
 
 .nav-header {
   a {
-    color: #DFE4ED;
+    color: rgb(0, 0, 0);
   }
   .text-muted {
-    color: #8095a8;
+    color: #000000;
   }
 }
 
@@ -235,7 +238,7 @@ body.canvas-menu .nav-header {
   .nav > li {
     > a {
       padding: 15px 20px;
-      color: #676a6c;
+      color: #000000;
     }
     a {
       &:focus, &:hover {
@@ -752,7 +755,7 @@ button {
 
 .label {
   background-color: #d1dade;
-  color: #5e5e5e;
+  color: #000000;
   font-family: 'Open Sans';
   text-shadow: none;
   font-weight: 600;
@@ -801,7 +804,7 @@ button.dim:active:before {
   background-color: #FFF;
   color: #5E5E5E;
   background-color: #2A2E36;
-  color: #8B91A0;
+  color: rgb(0, 0, 0);
 }
 
 .h-150 {
@@ -1014,7 +1017,7 @@ label.error {
 }
 
 .author-info {
-  color: #676a6c;
+  color: #000000;
   font-size: 11px;
   margin-top: 5px;
 }
@@ -1234,7 +1237,7 @@ body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #2f4050;
   font-size: 13px;
-  color: #676a6c;
+  color: #000000;
   height: 100%;
 }
 
@@ -1405,7 +1408,7 @@ code {
 }
 
 .ibox-content {
-  color: inherit;
+  color: #000000;
   padding: 15px 20px 20px;
   border-width: 1px 0;
   clear: both;
@@ -1803,7 +1806,7 @@ ul.clear-list:first-child {
 }
 
 .file-name small {
-  color: #676a6c;
+  color: #000000;
 }
 
 .vote-icon, .vote-title {
@@ -1868,13 +1871,13 @@ ul.clear-list:first-child {
 
 .project-title a {
   font-size: 14px;
-  color: #676a6c;
+  color: #000000;
   font-weight: 600;
 }
 
 .project-files li a {
   font-size: 11px;
-  color: #676a6c;
+  color: #000000;
   margin-left: 10px;
   line-height: 22px;
 }
@@ -1897,7 +1900,7 @@ ul.clear-list:first-child {
 .article {
   h1 {
     font-size: 48px;
-    color: #2F4050;
+    color: rgb(0, 0, 0);
   }
   p {
     font-size: 15px;
@@ -1916,7 +1919,7 @@ ul.clear-list:first-child {
 }
 
 .vote-item {
-  border-top: 1px solid #e7eaec;
+  border-top: 1px solid #000000;
 }
 
 .social-feed-box {
@@ -1966,6 +1969,7 @@ ul.clear-list:first-child {
 }
 
 .vote-item {
+  color: #000000;
   padding: 20px 25px;
   background: #fff;
   &:last-child {
@@ -1989,7 +1993,7 @@ ul.clear-list:first-child {
 }
 
 .vote-title {
-  color: inherit;
+  color: #000000;
   &:focus, &:hover {
     color: inherit;
   }
@@ -2000,10 +2004,10 @@ ul.clear-list:first-child {
 }
 
 .vote-info {
-  color: #b4b6b8;
+  color: #000000;
   font-size: 12px;
   a {
-    color: #b4b6b8;
+    color: #000000;
     font-size: 12px;
     margin-right: 10px;
     &:hover {
@@ -2015,7 +2019,7 @@ ul.clear-list:first-child {
 .vote-icon {
   text-align: right;
   font-size: 38px;
-  color: #e8e9ea;
+  color: #000000;
   &.active {
     color: #3385FF;
   }
@@ -2026,7 +2030,7 @@ body {
     display: none;
   }
   &.landing-page {
-    color: #676a6c;
+    color: #000000;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     background-color: #fff;
   }
@@ -2377,7 +2381,7 @@ body {
     color: #3385FF;
   }
   p.text-color {
-    color: #676a6c;
+    color: #000000;
   }
   a.navy-link {
     color: #3385FF;
@@ -2387,8 +2391,8 @@ body {
     }
   }
   section p {
-    color: #aeaeae;
-    font-size: 13px;
+    color: #000000;
+    font-size: 16px;
   }
   h1 {
     margin-top: 10px;
@@ -2482,7 +2486,7 @@ body {
     }
   }
   .navbar-scroll.navbar-default .nav li a {
-    color: #676a6c;
+    color: #000000;
     &:hover {
       color: #3385FF;
     }
@@ -2780,7 +2784,7 @@ body {
         color: inherit;
       }
       .nav li a {
-        color: #676a6c;
+        color: #000000;
         &:hover {
           color: #3385FF;
         }
@@ -2856,7 +2860,6 @@ body {
 }
 
 
-
 .typewriter h5 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -2869,4 +2872,30 @@ body {
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
+}
+
+.landing-button { 
+  index: 50;
+  top: 100px;
+  position: absolute;
+}
+
+
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-category{
+  font-size: larger;;
+}
+
+.skills-category-label{
+  color:#1c1cce;
+  text-transform:uppercase
+}
+
+.skills-category-list{
+  color: #000000;
 }

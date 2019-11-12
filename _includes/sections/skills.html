@@ -5,39 +5,54 @@
             <h1><span data-i18n="skills.my_skills">Cosa so Fare</span></h1>
         </div>
     </div>
-    <div class="row features-block">
-        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-            <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
+        <div class="skills">
+            <div class="skills-category">
+                <div class="skills-category-label">Languages</div>
+                <ul>
+                    <li class="skills-category-list">JavaScript (ES6)</li>
+                    <li class="skills-category-list">TypeScript</li>
+                    <li class="skills-category-list">HTML</li>
+                    <li class="skills-category-list">CSS/Sass</li>
+                    <li class="skills-category-list">Python</li>
+                    <li class="skills-category-list">SQL</li>
+                    <li class="skills-category-list">R</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <div class="skills-category-label">Frameworks</div>
+                <ul>
+                    <li class="skills-category-list">Ember & Glimmer</li>
+                    <li class="skills-category-list">React</li>
+                    <li class="skills-category-list">Jekyll</li>
+                    <li class="skills-category-list">Node</li>
+                    <li class="skills-category-list">D3</li>
+                    <li class="skills-category-list">Wordpress</li>
+                    <li class="skills-category-list">Timber</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <div class="skills-category-label">Tools</div>
+                <ul>
+                    <li class="skills-category-list">Bash</li>
+                    <li class="skills-category-list">Git & Github</li>
+                    <li class="skills-category-list">Gulp & Grunt</li>
+                    <li class="skills-category-list">Chrome DevTools</li>
+                    <li class="skills-category-list">Postman</li>
+                    <li class="skills-category-list">MongoDB</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <div class="skills-category-label">Design</div>
+                <ul>
+                    <li class="skills-category-list">Sketch</li>
+                    <li class="skills-category-list">InDesign</li>
+                    <li class="skills-category-list">InVision</li>
+                    <li class="skills-category-list">Prototyping</li>
+                    <li class="skills-category-list">Wireframing</li>
+                    <li class="skills-category-list">User Testing</li>
+                </ul>
+            </div>
         </div>
-        <div class="col-lg-1"></div>
-        <script>
-        var ctx = document.getElementById("{{ site.data.index.skills.id }}");
-        var data = {
-            labels: "{{ site.data.index.skills.aspects }}".split(","),
-            datasets: [{
-                label: "{{ site.data.index.skills.label }}",
-                backgroundColor: "rgba(179,181,198,0.2)",
-                borderColor: "#3385FF",
-                pointBackgroundColor: "#3385FF",
-                pointBorderColor: "#fff",
-                pointHoverBackgroundColor: "#3385FF",
-                pointHoverBorderColor: "#3385FF",
-                data: [{{ site.data.index.skills.percentage }}]
-                }]
-        };
-        var myRadarChart = new Chart(ctx, {
-            type: 'radar',
-            data: data,
-            options: {
-                scale: {
-                    responsive: true,
-                    ticks: {min: 0, max: 100},
-                    lineArc: false,
-                    pointLabels: {fontSize: 14},
-                },
-                legend: {display: false},
-            }
-        });
-        </script>
+
     </div>
 </div>
