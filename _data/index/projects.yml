@@ -2,7 +2,7 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Machine Learning Ecommerce Website
-  gh_user: tuhanhnguyen
+  gh_user: TuHanhNguyenn
   repo: Machine-Learning-Ecommerce
   img: /static/assets/img/landing/ml-ecommerce.jpg
   desc: <a href="https://finalprojectfansipan2019.appspot.com/">Click here to visit demo site</a>. This project utilizes google app engines, goole cloud storage, flask, and machine learning application to classify products into category automatically.
